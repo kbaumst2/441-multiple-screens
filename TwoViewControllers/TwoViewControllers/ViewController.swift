@@ -42,7 +42,6 @@ class ViewController: UIViewController, SendDataProtocol {
             //dismiss(animated: true, completion: nil)
         }
         
-        
     }
     
     // Delegate Method

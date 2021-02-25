@@ -18,6 +18,9 @@
 		44238B2525E4004000D95E9D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44238B2425E4004000D95E9D /* SecondViewController.swift */; };
 		44238B2A25E4048000D95E9D /* penne.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 44238B2925E4048000D95E9D /* penne.jpeg */; };
 		44238B2F25E4070600D95E9D /* unchecked-checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 44238B2E25E4070600D95E9D /* unchecked-checkbox.png */; };
+		44238B3525E8633400D95E9D /* wine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44238B3325E8633300D95E9D /* wine.jpg */; };
+		44238B3625E8633400D95E9D /* salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44238B3425E8633300D95E9D /* salad.jpg */; };
+		44238B3B25E8639300D95E9D /* salad1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44238B3A25E8639300D95E9D /* salad1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		44238B2425E4004000D95E9D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		44238B2925E4048000D95E9D /* penne.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penne.jpeg; sourceTree = "<group>"; };
 		44238B2E25E4070600D95E9D /* unchecked-checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked-checkbox.png"; sourceTree = "<group>"; };
+		44238B3325E8633300D95E9D /* wine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wine.jpg; sourceTree = "<group>"; };
+		44238B3425E8633300D95E9D /* salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salad.jpg; sourceTree = "<group>"; };
+		44238B3A25E8639300D95E9D /* salad1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salad1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 		44238AF025E3FD8300D95E9D /* TwoViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				44238B3A25E8639300D95E9D /* salad1.jpg */,
+				44238B3425E8633300D95E9D /* salad.jpg */,
+				44238B3325E8633300D95E9D /* wine.jpg */,
 				44238B2E25E4070600D95E9D /* unchecked-checkbox.png */,
 				44238B2925E4048000D95E9D /* penne.jpeg */,
 				44238AF125E3FD8300D95E9D /* AppDelegate.swift */,
@@ -244,7 +253,10 @@
 				44238AFE25E3FD8700D95E9D /* LaunchScreen.storyboard in Resources */,
 				44238AFB25E3FD8700D95E9D /* Assets.xcassets in Resources */,
 				44238AF925E3FD8300D95E9D /* Main.storyboard in Resources */,
+				44238B3625E8633400D95E9D /* salad.jpg in Resources */,
+				44238B3525E8633400D95E9D /* wine.jpg in Resources */,
 				44238B2F25E4070600D95E9D /* unchecked-checkbox.png in Resources */,
+				44238B3B25E8639300D95E9D /* salad1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
