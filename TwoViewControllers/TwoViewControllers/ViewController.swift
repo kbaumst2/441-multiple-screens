@@ -7,15 +7,10 @@
 
 import UIKit
 
-
-protocol SendDataToSecondViewProtocol {
-    func sendPenneFavoriteInformationToSecondController(isFavorited: Bool)
-}
-
 class ViewController: UIViewController, SendDataProtocol {
 
 
-    var delegate: SendDataToSecondViewProtocol? = nil
+    //var delegate: SendDataToSecondViewProtocol? = nil
     var isPenneFavorited = false
     @IBOutlet var favoritePenneButton: UIButton!
     
@@ -34,14 +29,7 @@ class ViewController: UIViewController, SendDataProtocol {
         }
         else{
             markPenneAsFavorited()
-        }
-        print("HERE OUT")
-        if self.delegate != nil {
-            print("HERE")
-            self.delegate?.sendPenneFavoriteInformationToSecondController(isFavorited: isPenneFavorited)
-            //dismiss(animated: true, completion: nil)
-        }
-        
+        }        
     }
     
     // Delegate Method

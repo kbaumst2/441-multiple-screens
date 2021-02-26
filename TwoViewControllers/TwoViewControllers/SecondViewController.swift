@@ -14,7 +14,7 @@ protocol SendDataProtocol {
 }
 
 
-class SecondViewController: UIViewController, SendDataToSecondViewProtocol {
+class SecondViewController: UIViewController {
    
     var delegate: SendDataProtocol? = nil
     @IBOutlet var favoritePenneButton: UIButton!
@@ -53,25 +53,7 @@ class SecondViewController: UIViewController, SendDataToSecondViewProtocol {
         }
         
     }
-    
-    func sendPenneFavoriteInformationToSecondController(isFavorited: Bool) {
-        if(isFavorited == true){
-            markPenneAsFavorited()
-        }
-        else {
-            markPenneAsNotFavorited()
-        }
         
-    }
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            if segue.identifier == "penneRecipeSegue" {
-                let firstVC: ViewController = segue.destination as! ViewController
-                //firstVC.isPenneFavorited = isPenneFavorited
-                firstVC.delegate = self
-        }
-    }
-    
     func markPenneAsFavorited(){
         favoritePenneButton.setImage( UIImage(systemName: "checkmark.square"), for: .normal)
         favoritePenneButton.setTitle("Added to favorites", for: .normal)
